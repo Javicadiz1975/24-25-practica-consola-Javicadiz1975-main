@@ -52,7 +52,7 @@
             <div style="margin-top: 20px;">
                 <h3>Manual de Comandos para Directorios y Archivos</h3>
                 <ul style="list-style-type: none; padding: 0;">
-                    <li><strong>📁 Crear Directorio:</strong> Crea un nuevo directorio. <em>(Requiere parámetro [nombre del directorio])</em></li>
+                    <li><strong>📁 Crear Directorio:</strong> Crear un nuevo directorio. <em>(Requiere parámetro [nombre del directorio])</em></li>
                     <li><strong>🗑️ Borrar Directorio:</strong> Elimina el directorio especificado. <em>(Requiere parámetro [nombre del directorio])</em></li>
                     <li><strong>➡️ Mover Directorio:</strong> Mueve un directorio de una ubicación a otra. <em>(Requiere dos parámetros [ruta,rutadestino])</em></li>
                     <li><strong>📂 Copiar Directorio:</strong> Copia un directorio a una nueva ubicación. <em>(Requiere dos parámetros [ruta,rutadestino])</em></li>
