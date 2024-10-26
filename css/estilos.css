@@ -1,0 +1,124 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    flex-direction: column;
+}
+
+/* Estilo para el contenedor de la consola */
+.console-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    max-width: 65%; /* Se ha reducido el ancho máximo */
+    width: 100%;
+    /*margin: 0 auto; /* Centrado horizontal */
+    text-align: center;
+}
+
+.console-container-resp-valida {
+    background-color: #11b827;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    max-width: 50%; /* Se ha reducido el ancho máximo */
+    width: 100%;
+    margin: 0 auto; /* Centrado horizontal */
+    text-align: center;
+}
+
+.console-container-resp-invalida {
+    background-color: #f50c0c;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    max-width: 50%; /* Se ha reducido el ancho máximo */
+    width: 100%;
+    margin: 0 auto; /* Centrado horizontal */
+    text-align: center;
+}
+
+/* Título de la consola */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+    
+}
+
+/* Estilo para la sección de parámetros */
+.param-section {
+    margin-bottom: 20px; /* Más espacio debajo */
+}
+
+.param-section label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.param-section input {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px; /* Limita el ancho del input */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px; /* Más espacio debajo del input */
+}
+
+/* Sección de comandos */
+.command-section {
+    margin-bottom: 40px;
+}
+
+.command-section h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Botones de comando */
+.command-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.command-buttons button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+.command-buttons button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px); /* Pequeña elevación en hover */
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 20px;
+}
